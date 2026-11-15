@@ -1,0 +1,82 @@
+/* Renewal Ready admin: WordPress and WooCommerce's own look. Loaded only on WooCommerce › Renewal Ready. */
+.rr-admin{max-width:1180px}
+.rr-tit{display:flex;align-items:center;gap:10px;margin:0 0 6px}
+.rr-tit h1{margin:0;padding:9px 0 4px}
+.a-pill{font-size:11px;font-weight:600;padding:3px 8px;border-radius:2px;background:#dcdcde;color:#1d2327}
+.rr-tabs{margin:0 0 18px}
+.rr-tabs .nav-tab.a-pro{color:#8c8f94}
+.rr-tabs .nav-tab.a-pro em,.rr-pro{font-style:normal;font-size:10px;font-weight:600;margin-left:4px;padding:1px 5px;border-radius:2px;background:#f0f0f1;box-shadow:inset 0 0 0 1px #dcdcde;color:#50575e}
+.a-banner{display:flex;align-items:center;gap:12px;padding:12px 14px;margin:0 0 18px;background:#fff;border:1px solid #c3c4c7;border-left:4px solid #dba617;border-radius:2px}
+.a-banner>div{flex:1;min-width:0;font-size:14px}
+.a-banner.a-live{border-left-color:#00a32a}
+.a-banner.a-err{border-left-color:#d63638}
+.a-bi,.a-bi svg{width:20px;height:20px;flex:none;display:block}
+.rr-act{display:inline;margin:0}
+.a-grid{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:18px;align-items:start}
+.a-card{background:#fff;border:1px solid #dcdcde;border-radius:2px;box-sizing:border-box}
+.a-pad{padding:16px}
+.a-card h2{margin:0;font-size:17px;font-weight:600}
+.a-card h3{margin:0 0 10px;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:#50575e}
+.a-card-h{display:flex;align-items:center;gap:14px;padding:18px 20px;border-bottom:1px solid #f0f0f1}
+.a-card-h p{margin:2px 0 0;color:#50575e;font-size:14px}
+.a-ring{position:relative;width:46px;height:46px;flex:none}
+.a-ring svg{width:46px;height:46px;transform:rotate(-90deg)}
+.a-ring circle{fill:none;stroke-width:4.5}
+.a-ring-bg{stroke:#f0f0f1}
+.a-ring-fg{stroke:#00a32a;stroke-linecap:round;stroke-dasharray:0 200;transition:stroke-dasharray .4s}
+.a-ring b{position:absolute;inset:0;display:grid;place-items:center;font-size:15px}
+.a-list{list-style:none;margin:0;padding:0}
+.a-row{display:flex;align-items:center;gap:12px;margin:0;padding:14px 20px;border-bottom:1px solid #f0f0f1}
+.a-row>div{flex:1;min-width:0}
+.a-row b{font-size:14px;font-weight:600}
+.a-row p{margin:2px 0 0;color:#50575e}
+.a-ic,.a-ic svg{width:20px;height:20px;flex:none;display:block}
+.a-row .button,.a-row .rr-act{flex:none}
+.a-warn{background:#fcf9e8}
+.a-bad{background:#fcf0f1}
+.a-done .a-row{padding:9px 20px}
+.a-done .a-row b{font-weight:500}
+.a-done .a-row>div{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.a-done .a-row p{margin:0;font-size:12px}
+.a-done .a-ic,.a-done .a-ic svg{width:16px;height:16px}
+.a-more{display:flex;align-items:center;gap:6px;width:100%;padding:10px 20px;border:0;border-bottom:1px solid #f0f0f1;background:#f6f7f7;color:#50575e;font-weight:600;cursor:pointer;text-align:left}
+.a-more svg{width:14px;height:14px}
+.a-more[aria-expanded=false] svg{transform:rotate(-90deg)}
+.a-side{display:grid;gap:18px}
+.a-next{list-style:none;margin:0 0 10px;padding:0}
+.a-next li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1px 8px;margin:0;padding:8px 0;border-top:1px solid #f0f0f1}
+.a-next li b{grid-column:1}
+.a-next li span:not(.a-tag){grid-column:1;color:#50575e;font-size:12px}
+.a-next time{grid-column:2;grid-row:2/4;align-self:center;font-weight:600}
+.a-tag{grid-column:1/3;justify-self:start;font-size:10px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:2px 6px;border-radius:2px;background:#fcf9e8;color:#996800;margin-bottom:3px}
+.a-tag.a-tlive{background:#edfaef;color:#007017}
+.a-src{margin:0;padding:7px 0;border-top:1px solid #f0f0f1;display:flex;flex-direction:column}
+.a-src span{font-size:12px;color:#007017}
+.a-src.a-off{color:#8c8f94}
+.a-src.a-off span{color:#8c8f94}
+.a-src em{align-self:flex-start;font-style:normal;font-size:10px;padding:0 4px;border-radius:2px;background:#f0f0f1}
+.a-disc{margin:22px 0 0;color:#646970;font-size:12px}
+.a-lock{max-width:560px}
+.a-lock p{font-size:15px;margin:0 0 14px}
+.rr-settings .form-table th{width:240px}
+.rr-settings tr.a-off th,.rr-settings tr.a-off td{color:#8c8f94}
+.rr-radio{margin-right:18px;display:inline-block}
+.rr-inline input.small-text{width:64px;margin:0 4px}
+.rr-tick-warn{margin:8px 0 0;padding:8px 10px;border-left:4px solid #d63638;background:#fcf0f1;color:#8a2424;font-weight:600}
+.rr-pick{flex-wrap:wrap;justify-content:space-between}
+.rr-pick form{display:flex;align-items:center;gap:8px}
+.rr-preview{display:block;width:100%;height:760px;border:0;background:#f6f7f7}
+[hidden]{display:none!important}
+@media (max-width:960px){
+	.a-grid{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:782px){
+	.a-banner{flex-wrap:wrap}
+	.a-row{flex-wrap:wrap;padding:12px 14px}
+	.a-row>div{flex-basis:calc(100% - 40px)}
+	.a-row .rr-act,.a-row>.button{margin-left:32px}
+	.a-card-h{padding:14px}
+	.rr-settings .form-table th{width:auto}
+	.rr-preview{height:620px}
+	.rr-tabs .nav-tab{font-size:13px;padding:6px 8px}
+}

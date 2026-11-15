@@ -1,0 +1,71 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:1b4e371d-352f-50de-9fc1-7f994a53cf8f",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-15T00:00:00Z",
+  "supplier": {
+   "name": "Facilo",
+   "url": [
+    "https://facilo.es"
+   ],
+   "contact": [
+    {
+     "email": "info@facilo.es"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "name": "renewal-ready",
+   "version": "1.0.0",
+   "description": "Renewal Ready, UK subscription rules for WooCommerce. No bundled third-party code, fonts or images.",
+   "licenses": [
+    {
+     "license": {
+      "id": "GPL-2.0-or-later"
+     }
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "framework",
+   "name": "wordpress",
+   "scope": "required",
+   "description": "Host, version 6.5 or later, not bundled"
+  },
+  {
+   "type": "framework",
+   "name": "woocommerce",
+   "scope": "required",
+   "description": "Required plugin, version 8.9 or later, installed separately, not bundled"
+  },
+  {
+   "type": "framework",
+   "name": "subscriptions-for-woocommerce",
+   "scope": "optional",
+   "description": "One supported subscription source (WP Swings), installed separately, not bundled"
+  },
+  {
+   "type": "framework",
+   "name": "yith-woocommerce-subscription",
+   "scope": "optional",
+   "description": "One supported subscription source (YITH), installed separately, not bundled"
+  },
+  {
+   "type": "framework",
+   "name": "woocommerce-subscriptions",
+   "scope": "optional",
+   "description": "One supported subscription source (beta), installed separately, not bundled"
+  },
+  {
+   "type": "platform",
+   "name": "php",
+   "scope": "required",
+   "description": "Version 7.4 or later, not bundled"
+  }
+ ]
+}

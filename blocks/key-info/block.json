@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "renewal-ready/key-info",
+	"version": "1.0.0",
+	"title": "Subscription key information",
+	"category": "woocommerce",
+	"description": "Shows the subscription's key information and the payment tick above the place-order button.",
+	"parent": [ "woocommerce/checkout-fields-block" ],
+	"textdomain": "renewal-ready",
+	"supports": { "html": false, "multiple": false, "reusable": false, "inserter": true },
+	"attributes": {
+		"lock": { "type": "object", "default": { "remove": true, "move": false } }
+	},
+	"editorScript": "renewal-ready-key-info-editor"
+}

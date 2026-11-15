@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "renewal-ready/exit",
+	"version": "1.0.0",
+	"title": "How to end your subscription",
+	"category": "woocommerce",
+	"description": "Plain steps to end a subscription online, with your contact email for anyone who can't log in.",
+	"textdomain": "renewal-ready",
+	"supports": { "html": false, "multiple": false },
+	"editorScript": "renewal-ready-exit-editor",
+	"style": "renewal-ready-account"
+}
