@@ -1,7 +1,9 @@
 # Renewal Ready – UK Subscription Rules for WooCommerce
 
 **What it is:** a free WordPress plugin that adds the UK's new subscription rules, in force from 1 January 2027, to your WooCommerce shop: renewal reminders, a clear "I agree to pay" checkout and an online "End subscription" button.
+
 **Who it's for:** WooCommerce shops that sell subscriptions to UK customers and already use WP Swings Subscriptions, YITH WooCommerce Subscription (free) or, in beta, WooCommerce Subscriptions.
+
 **How you use it:** 1) upload the zip and activate it, 2) work through the readiness check and send yourself a test of each email, 3) switch from Preview to Live.
 
 It isn't a subscription plugin on its own (it works on top of yours), it never charges or refunds anyone by itself, and it isn't legal advice.
